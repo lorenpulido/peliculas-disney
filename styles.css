@@ -1,0 +1,73 @@
+#personajes{
+    float: left;
+}
+
+body{
+    background-color: slateblue;
+}
+
+#stitch{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    background-color: rgb(100, 170, 236);
+    background-image: url(imagenes/stitch.jpg);
+    padding: 20px;
+    border: 10px solid rgb(31, 17, 226);
+    background-position: 50% 50%;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#winniepooh{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    background-color: rgb(232, 248, 7);
+    background-image: url(imagenes/winnie\ pooh.png);
+    padding: 20px;
+    border: 10px solid rgb(250, 12, 12);
+    background-position: 50% 50%;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#bambi{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    background-color: brown;
+    background-image: url(imagenes/bambi.png);
+    padding: 20px;
+    border: 10px solid lightcoral;
+    background-position: 50% 50%;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+#osobalu{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    background-color: grey;
+    background-image: url(imagenes/balu.png);
+    padding: 20px;
+    border: 10px solid rgb(20, 20, 20);
+    background-position: 50% 50%;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    float: left;
+}
+@font-face{
+    font-family: 'Walter';
+    src: url(fonts/Walter.ttf);
+}
+
+h1 {
+    font-family: 'Walter';
+    font-size: 100px;
+    text-align: center;
+}
